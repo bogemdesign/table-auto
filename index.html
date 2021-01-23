@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+<div class="logo">
+<img src="Logo.png" alt="logo" />
+</div>
+</header>
+  
+ <div class="info">
+   <div class="box-info">
+    Pusat Percetakan Bandung <br/>
+    Jalan Pagarsih <br/>
+    P. Ulekan lantai 2 <br/>
+    Kode Pos 40241<br/>
+    <i class="fab fa-whatsapp"></i> +6282118174855
+   </div>
+    <div class="box-info">
+      <div class="kpd">Kepada Yth Ibu/Bapak <br/><span class="nama">Opik</span></div>
+    <span class="tanggal">13 Januari 2021</span>
+    <div class="in">Invoice</div>
+   </div>
+ </div> 
+  
+  
+  
+  
+  
+  
+  
+  
+  <table id="barang">
+    <tr>
+      <th>Qty</th>
+      <th>Nama Barang</th>
+      <th>Spesifikasi</th>
+      <th>Satuan</th>
+      <th>Jumlah</th>
+    </tr>
+    <!--<tr>
+      <td>100</td>
+      <td>Hangtag</td>
+      <td>Mata Itik ysyss uhshss usve</td>
+      <td>3800</td>
+      <td>380000</td>
+    </tr>
+      <tr>
+        <td>100</td>
+        <td>Hangtag</td>
+        <td>Polos</td>
+        <td>3800</td>
+        <td class="total"></td>
+      </tr>
+        <tr>
+          <td>100</td>
+          <td>Hangtag</td>
+          <td>Spot UV</td>
+          <td>3800</td>
+          <td class="total"></td>
+        </tr>-->
+  </table>
+  
+  <table id="total">
+   <tr>
+     <th>Total :    Rp.</th>
+     <th class="hasil">0 </th>
+   </tr> 
+   <tr>
+     <th>Dp min.50% :   Rp.</th>
+     <th class="depo"></th>
+   </tr>
+   <tr>
+     <th>Potongan Reseller :   Rp.</th>
+     <th class="res"></th>
+   </tr>
+   <tr>
+     <th>Sisa :     Rp.</th>
+     <th class="dibayar"></th>
+   </tr>
+    
+  </table>
+  <div class="clear"/>
+  <div class="pay">
+    
+    Transfer BCA 1481011235 a/n Taufik Muhammad A
+  </div>
+  <div class="sosial">
+    <i class="fab fa-instagram"> pusatpercetakan_label_hangtag</i>
+    
+  </div>
+  <br/>
+    <br/>
+      <br/>
+        <br/>
+          <br/>
+            <br/>
+              <br/>
+                <br/>
+                <!-- Box input barang -->
+    <div class="input-barang">
+      <label for="qty">qty</label>
+    <input  type="number" name="" id="qty" value="" />
+      <label for="nama-barang">nama-barang</label>
+    <input type="text" name="" id="nama-barang" value="" />
+    <label for="spesifikasi">Spesifikasi</label>
+    <input type="text" name="" id="spesifikasi" value="" />
+    <label for="satuan">satuan</label>
+    <input type="number" name="" id="satuan" value="" />
+    <button type="submit" onclick="addkolom()">Simpan </button>
+    </div>
+    
+    <!-- tombol jumlahkan -->
+    <div class="box-jumlah">
+    <button  class="jumlah" type="submit" onclick="jumlahkan()">Jumlahkan Dulu</button>
+    </div>
+    
+    <!-- Box input Deposite -->
+    <div class="input-dp">
+      <label for="nama-pelanggan">nama-pelanggan</label>
+      <input type="text" name="" id="nama-pelanggan" value="" />
+      <label for="deposit">deposit</label>
+      <input type="number" name="" id="deposit" value="" />
+      <label for="res">reseller </label>
+      <input type="number" name="" id="res" value="0" />
+      <button onclick="depo()">Simpan</button>
+    </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>

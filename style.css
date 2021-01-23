@@ -1,0 +1,193 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+    font-size: 12px;
+    width: 100%;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clear{
+  clear: both;
+}
+
+header .logo{
+  max-width: 80%;
+  margin: 50px auto 0;
+}
+header .logo img{
+  width: 100%;
+}
+.info{
+  margin: 30px auto 30px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.info .box-info{
+  max-width: 49%;
+  position: relative;
+}
+.info .box-info i{
+  font-size: 16px;
+}
+.in{
+  position: absolute;
+  bottom: 25%;
+  top:75%;
+  left: 0;
+  right:0px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+
+table{
+  border: none;
+  border-collapse: collapse;
+  width: 98%;
+  margin:15px auto;
+}
+#barang th{
+  background: #37E1F8;
+  color: white;
+}
+#barang th,td{
+  padding: 8px 2px;
+  text-align: center;
+  font-weight: 400;
+    border: 0.75px solid #000;
+}
+#total {
+  min-width: 50%;
+  max-width: 80%;
+  float: right;
+  margin-right:2%;
+  padding: 10px;
+}
+#total th{
+  text-align: right;
+  font-weight: 600;
+}
+#total tr th {
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.pay{
+  padding: 10px; 
+  /*border-bottom: 3px solid #C0273B;*/
+  font-size: 14px;
+  line-height: 150%;
+  margin-top: 20px;
+  background: #F220DC;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.input-barang{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 50px auto;
+  border:2px solid #C20D2A;
+  padding: 15px ;
+  border-radius: 5px;
+}
+.input-barang label{
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.input-barang input{
+  margin-bottom:10px;
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #204C10;
+}
+.input-barang button{
+  width: 50%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: #133D8F;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.input-dp{
+   display: flex;
+   flex-direction: column;
+   width: 90%;
+   margin: 50px auto;
+   border:2px solid #C20D2A;
+   padding: 15px;
+   border-radius: 5px;
+}
+.input-dp label{
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.input-dp input{
+  margin-bottom:10px;
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #204C10;
+}
+.input-dp button{
+  width: 50%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: #133D8F;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+.jumlah{
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #133D8F;
+    color: white;
+    padding: 10px;
+    margin: 20px auto;
+    }
+.box-jumlah{
+  width: 95%;
+  margin:0 auto;
+  text-align: left;
+}
+.sosial i{
+  font-weight: 600;
+  line-height:150%;
+  text-align: center;
+  width: 100%;
+  margin-top: 9px;
+}
+.nama{
+font-weight: bold;
+}
+button{
+  transition: All 0.5s;
+}
+button:hover{
+  transform: scale(0.8);
+  background: white;
+  color: #000;
+  border: 1px solid #000;
+}

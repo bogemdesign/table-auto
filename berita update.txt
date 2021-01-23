@@ -1,0 +1,4 @@
+versi 2
+-Menambah titik pada Angka Rupiah
+-Menambah input Nama Pelanggan
+-efek menggecil button ketika di sentuh 
