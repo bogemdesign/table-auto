@@ -2,3 +2,7 @@ versi 2
 -Menambah titik pada Angka Rupiah
 -Menambah input Nama Pelanggan
 -efek menggecil button ketika di sentuh 
+
+versi 3 
+- menambah kan bahan 
+- menghups fungsi ress
