@@ -48,6 +48,7 @@
     <tr>
       <th>Qty</th>
       <th>Nama Barang</th>
+      <th>Bahan</th>
       <th>Spesifikasi</th>
       <th>Satuan</th>
       <th>Jumlah</th>
@@ -84,10 +85,10 @@
      <th>Dp min.50% :   Rp.</th>
      <th class="depo"></th>
    </tr>
-   <tr>
-     <th>Potongan Reseller :   Rp.</th>
-     <th class="res"></th>
-   </tr>
+   <!--<tr>-->
+   <!--  <th>Potongan Reseller :   Rp.</th>-->
+   <!--  <th class="res"></th>-->
+   <!--</tr>-->
    <tr>
      <th>Sisa :     Rp.</th>
      <th class="dibayar"></th>
@@ -117,6 +118,8 @@
     <input  type="number" name="" id="qty" value="" />
       <label for="nama-barang">nama-barang</label>
     <input type="text" name="" id="nama-barang" value="" />
+      <label for="bahan">Bahan</label>
+    <input type="text" name="" id="bahan" value="" />
     <label for="spesifikasi">Spesifikasi</label>
     <input type="text" name="" id="spesifikasi" value="" />
     <label for="satuan">satuan</label>
@@ -135,7 +138,7 @@
       <input type="text" name="" id="nama-pelanggan" value="" />
       <label for="deposit">deposit</label>
       <input type="number" name="" id="deposit" value="" />
-      <label for="res">reseller </label>
+      <!--<label for="res">reseller </label>-->
       <input type="number" name="" id="res" value="0" />
       <button onclick="depo()">Simpan</button>
     </div>
