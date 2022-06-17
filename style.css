@@ -32,7 +32,7 @@ header .logo img{
   line-height: 150%;
 }
 .info .box-info{
-  max-width: 49%;
+  max-width: 45%;
   position: relative;
 }
 .info .box-info i{
@@ -40,8 +40,8 @@ header .logo img{
 }
 .in{
   position: absolute;
-  bottom: 25%;
-  top:75%;
+  bottom: 50%;
+  top:50%;
   left: 0;
   right:0px;
   font-weight: 600;
@@ -55,7 +55,7 @@ table{
   border: none;
   border-collapse: collapse;
   width: 98%;
-  margin:15px auto;
+  margin:20px auto;
 }
 #barang th{
   background: #37E1F8;
@@ -88,7 +88,7 @@ table{
   /*border-bottom: 3px solid #C0273B;*/
   font-size: 14px;
   line-height: 150%;
-  margin-top: 20px;
+  margin-top: 50px;
   background: #F220DC;
   font-weight: bold;
   text-align: center;
@@ -178,16 +178,4 @@ table{
   text-align: center;
   width: 100%;
   margin-top: 9px;
-}
-.nama{
-font-weight: bold;
-}
-button{
-  transition: All 0.5s;
-}
-button:hover{
-  transform: scale(0.8);
-  background: white;
-  color: #000;
-  border: 1px solid #000;
 }
